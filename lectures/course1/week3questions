@@ -1,0 +1,18 @@
+questions for week3
+
+1) never mix dev with training or you get overfitting (from lecture). never mix test set w/training or you get bias. lecture says test set is for unbiased measure of error. What exactly does this mean? 
+
+Start w/training set and dev set. You are minimizing training set error and testing on dev set to increase generalization by setting the hyperparameters. Then you test different models using the test set? How does this produce unbiased error? 
+
+What if training set different distribution form dev/test? 
+What if all 3 are different distributions? Underfitting. 
+
+Bias vs. variance: high bias=underfitting, high variance=overfitting. 
+
+dropout in tehory you can run test examples through and randomly drop out each test examle and average between them. Are you doing multiple runs for each test sample and averaging? Yes, how many times? But lecture says you just ignore it and you get basically teh same result. DOES HE MEAN DEV SET OR TEST SET? PROB TEST SET
+
+
+
+
+
+
